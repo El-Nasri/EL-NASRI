@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>El_Nasri.Fdaee7</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #6e5353; /* Darken the background slightly */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    p {
+        font-size: 20px; /* Increase font size of the first paragraph */
+        margin-bottom: 20px; /* Add margin to the bottom of the paragraph */
+        position: relative;
+    }
+    p:hover span {
+        animation: glow 1s infinite alternate; /* Apply glow animation to spans inside the paragraph on hover */
+    }
+    @keyframes glow {
+        0% {
+            text-shadow: 0 0 10px #cfcfb2; /* Initial glow effect */
+        }
+        100% {
+            text-shadow: 0 0 20px #cfcfb2; /* Stronger glow effect */
+        }
+    }
+    span {
+        display: inline-block;
+    }
+    span:hover {
+        transform: scale(1.2); /* Enlarge the letter on hover */
+    }
+    .team-members {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .team-member {
+        width: 200px;
+        margin: 20px;
+        padding: 15px;
+        background-color: #cfcfb2;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        text-align: center;
+        transition: transform 0.5s, box-shadow 0.5s; /* Add box-shadow transition */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        perspective: 1000px; /* Add perspective for 3D effect */
+    }
+    .team-member:hover {
+        transform: rotateY(10deg) rotateX(10deg) scale(1.2); /* Apply 3D rotation and scaling */
+        box-shadow: 0 10px 20px rgba(0,0,0,0.3); /* Change box-shadow on hover */
+    }
+    .team-member img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        transition: all 0.5s; /* Apply transition to all properties */
+    }
+    .team-member:hover img {
+        border-radius: 10px; /* Change border-radius to make it rectangular with rounded edges */
+    }
+    .team-member h2, .team-member p {
+        display: block; /* Make resume visible all the time */
+        font-size: 14px; /* Initial font size */
+        transition: font-size 0.5s; /* Slow down the transition */
+    }
+    .team-member:hover h2, .team-member:hover p {
+        font-size: 16px; /* Extend font size on hover */
+    }
+    .team-member:nth-child(11) {
+    position: relative;
+}
+
+.team-member:nth-child(11):hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(247, 247, 247);
+    opacity: 0.5;
+    z-index: -1;
+}
+</style>
+</head>
+<body>
+    <p>These are the      <span style="font-size: 30px;">✨</span><span style="font-size: 30px;">F</span><span style="font-size: 30px;">A</span><span style="font-size: 30px;">N</span><span style="font-size: 30px;">T</span><span style="font-size: 30px;">A</span><span style="font-size: 30px;">S</span><span style="font-size: 30px;">T</span><span style="font-size: 30px;">I</span><span style="font-size: 30px;">C</span><span style="font-size: 30px;">✨</span>      11.</p>
+    
+    <div class="team-members">
+        <div class="team-member">
+            <img src="janfees.jpg" alt="Member 1">
+            <h2>✨GANFACE✨</h2>
+            <p>يعني ملك ملوك المزاجات و التفكير السليم و مبتدئ في ضبط النفس
+            </p>
+        </div>
+        <div class="team-member">
+            <img src="asim.jpg" alt="Member 2">
+            <h2>✨ASIM✨</h2>
+            <p>مؤسس جمعية التصرف الساي يعمل لدى فيوتشر رئيس قسم الفريند زون
+            </p>
+        </div>
+        <!-- Add more team members as needed -->
+        <div class="team-member">
+            <img src="tarig.jpg" alt="Member 3">
+            <h2>✨TAROOGA✨</h2>
+            <p>قد يبدو كيوتاً و هادئاً ولكن في بيئته الطبيعيه ينتفض ليكون كوميدي و رقاصه و بعض الأعمال الجانبيه الم صح تتقال
+            </p>
+        </div>
+        <div class="team-member">
+            <img src="salah.jpg" alt="Member 4">
+            <h2>✨salah✨</h2>
+            <p>جدو كشتينه شيشه مرقات مزاجات نصائح و تشريحات
+                .</p>
+        </div>
+        <div class="team-member">
+            <img src="mo salah.jpg" alt="Member 5">
+            <h2>✨MOHAMMED SALLAH✨</h2>
+            <p>السعودي الشيخ الكيوت سابقا و الصعلوق عب جن حاليا كنا دايرنو يتعلم سوداني بالغلط بقيناه نيقا مان تخاف تخش معاه زقاق
+            </p>
+        </div>
+        <div class="team-member">
+            <img src="shosha.jpg" alt="Member 6">
+            <h2>✨SHOSHA✨</h2>
+            <p>اووو هووو السان الكتير فيك انا بقدر اكتب تعبير زولن مكنه عندو علي الأقل سته شخصيات مع كل زول راقي و لبيس و مكشكش شويه لكن بتتبلع (عرب ظوط/شهاده عربيه/تركي)
+            </p>
+        </div>
+        <div class="team-member">
+            <img src="bagera.jpg" alt="Member 7">
+            <h2>✨BAGERA✨</h2>
+            <p>باشمهندس جدو² جيناه رجال كبار و عاقلين بقانا شفع ننتظر متين الزول البيتكلم يغلط في كلمه عشان تمسكها ليه
+            </p>
+        </div>
+        <div class="team-member">
+            <img src="bodie.jpg" alt="Member 8">
+            <h2>✨BOODIE✨</h2>
+            <p>عبودي ذا بيست كلجه فيك ي منصوره. يدفع آلاف عشان م تقومو من مكانو مرتاح عشان يعمل ليك حاجه
+            </p>
+        </div>
+        <div class="team-member">
+            <img src="taso.jpg" alt="Member 9">
+            <h2>TASO</h2>
+            <p>هكر حرامي قيمر بيجمع معلومات ما عندها اي فائده اهم شي بيفهم النكت و بيضحك لي...ما يمزه شم رائحه الطعام من بعد كيلومترات و فرض ضريبه فوريه عليها
+            </p>
+        </div>
+        <div class="team-member">
+            <img src="hadi.jpg" alt="Member 10">
+            <h2>✨AL-HADI✨</h2>
+            <p>م بتعرفو راجل عجوز ولا شافع عبيط ولا زول عاقل ولا شارب حاجه ولا قرضي ولا كريم ولا مصارع بيقول الكلام المفروض يتقال وقت ما مفروض يتقال
+            </p>
+        </div>
+    </div>
+    <div class="team-member">
+        <img src="ana.jpg" alt="Member 11" style="width: 180px; height: 180px;">
+        <h2>✨👑EL-NASRI👑✨</h2>
+        <p>اهق اهق تفكر فيه ساي بتخجل ...خططك كلها بتضرب ....مواعيدك كلها بتطرشق...ركبك الاتنين بيطاقشو ...زول يعني قالو مره هف ضبانه جاب كتاحه
+            .</p>
+    </div>
+</body>
+</html>
